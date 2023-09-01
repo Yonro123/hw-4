@@ -5,43 +5,6 @@
 }
 .App {
   width: 100vw;
-  height: 100vh;
-}
-.container {
-  max-width: 85%;
   min-height: 100vh;
-  padding: 32px;
-  margin: 0 auto;
-}
-.recipeForm {
-  display: flex;
-  width: 50%;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
-.recipes {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-.recipe {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  width: 300px;
-  padding: 20px 0;
-  border: 1px solid black;
-  border-radius: 20px;
-}
-.recipe .image {
-  width: 90%;
-  border-radius: 20px;
-}
-.recipe ol {
-  width: 90%;
-}
-.recipe ol li {
-  margin-left: 15px;
+  background: linear-gradient(to right, #be86af, #f2d70b);
 }

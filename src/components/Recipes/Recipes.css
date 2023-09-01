@@ -1,0 +1,11 @@
+.container {
+  max-width: 85%;
+  min-height: 100vh;
+  padding: 32px;
+  margin: 0 auto;
+}
+.recipesTitle {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+}

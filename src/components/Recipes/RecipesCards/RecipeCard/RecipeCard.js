@@ -1,6 +1,8 @@
+import "./RecipeCard.css";
+
 export default function Recipe({ title, calories, image, ingredients }) {
   return (
-    <div className="recipe">
+    <div className="recipeCard">
       <img className="image" src={image} alt="" />
       <h2>{title}</h2>
       <ol>

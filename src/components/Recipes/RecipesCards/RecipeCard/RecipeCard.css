@@ -1,0 +1,28 @@
+.recipeCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 400px;
+  padding: 20px;
+  color: #fff;
+  box-shadow: 5px 5px 10px gray;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.recipeCard .image {
+  border-radius: 20px;
+}
+.recipeCard h2 {
+  font-size: 24px;
+  text-align: center;
+}
+.recipeCard ol {
+  width: 100%;
+}
+.recipeCard ol h3 {
+  font-size: 18px;
+}
+.recipeCard ol li {
+  margin-left: 20px;
+}

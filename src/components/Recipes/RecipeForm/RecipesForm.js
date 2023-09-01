@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Input } from "@chakra-ui/react";
-import { Button } from "@chakra-ui/react";
+import { Input, Button, Flex } from "@chakra-ui/react";
 
 export default function RecipeForm({ setQuery }) {
   const [search, setSearch] = useState("");
@@ -15,11 +14,18 @@ export default function RecipeForm({ setQuery }) {
   };
 
   return (
-    <div className="recipeForm">
+    <Flex w="50%" m="0 auto 20px">
       <Input borderRadius={"none"} value={search} onChange={updateSearch} />
-      <Button borderRadius={"none"} onClick={getSearch}>
+      <Button
+        borderRadius="0"
+        bg="linear-gradient(to right, #be86af, #f2d70b)"
+        transition="all 0.3s ease"
+        _hover={{ bg: "linear-gradient(to right, #f2d70b, #be86af)" }}
+        className="FormBtn"
+        onClick={getSearch}
+      >
         Search
       </Button>
-    </div>
+    </Flex>
   );
 }
